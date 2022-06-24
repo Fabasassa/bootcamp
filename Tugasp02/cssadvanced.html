@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Advanced</title>
+    <style type="text/css">
+        nav {
+            position: sticky;
+            top: 10px;
+            left: 30px;
+            box-shadow: 10px 3px rgba(25, 44, 208, 0.6);
+            z-index: 2;
+        }
+        
+        .kata {
+            width: 100%;
+            height: 500px;
+            background: gray;
+            padding: 100px 0 0 0;
+        }
+        
+        .tanya {
+            text-shadow: 10px;
+            border-radius: 2px;
+            text-shadow: 5px 5px red;
+            background: yellow;
+        }
+        
+        a {
+            background-color: greenyellow;
+            padding: 2px;
+            opacity: .2;
+            border: 3px black solid;
+            margin: 4px;
+            float: right;
+            transition: 1.5s;
+        }
+        
+        a:link {
+            background: blue;
+            color: white;
+        }
+        
+        a:visited {
+            background: yellow;
+        }
+        
+        a:hover {
+            background: red;
+            opacity: 3;
+        }
+        
+        img {
+            z-index: 2;
+            width: 700px;
+            height: 450px;
+            transition: .5s ease;
+        }
+        
+        img:hover {
+            opacity: 1;
+            transform: scale(.5) rotateY(50deg) rotateX(50deg) rotateZ(50deg);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="../Tugasp01/background.jpeg">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cssadvanced.html">CSS Advanced</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <div class="kata">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur voluptatem, non itaque totam, vel nobis quos laboriosam repellendus voluptatum impedit fugiat. Aperiam repudiandae repellendus nisi, corrupti consequatur ullam expedita!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur voluptatem, non itaque totam, vel nobis quos laboriosam repellendus voluptatum impedit fugiat. Aperiam repudiandae repellendus nisi, corrupti consequatur ullam expedita!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur voluptatem, non itaque totam, vel nobis quos laboriosam repellendus voluptatum impedit fugiat. Aperiam repudiandae repellendus nisi, corrupti consequatur ullam expedita!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur voluptatem, non itaque totam, vel nobis quos laboriosam repellendus voluptatum impedit fugiat. Aperiam repudiandae repellendus nisi, corrupti consequatur ullam expedita!</p>
+    </div>
+
+    <div class="tanya">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur voluptatem, non itaque totam, vel nobis quos laboriosam repellendus voluptatum impedit fugiat.<br> Aperiam repudiandae repellendus nisi, corrupti consequatur ullam expedita!</p>
+    </div>
+    <br><br>
+</body>
+
+</html>
